@@ -1,0 +1,24 @@
+[package]
+name = "coinipopt-sys"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+license = "Apache-2.0"
+documentation = "https://docs.rs/coinipopt-sys/"
+description = "The low-level bindings to the COIN-OR Clp library."
+repository = "https://github.com/Maroon502/coinipopt-sys.git"
+keywords = ["coin-or", "Ipopt", "ipopt-sys", "coinipopt-sys"]
+readme = "README.md"
+authors = [
+    "Maroon502<maroon502@outlook.com>"
+]
+
+[features]
+default = ["ipopt-src/default"]
+
+[dependencies]
+ipopt-src = { version = "0.2", default-features = false, optional = true}
+
+[build-dependencies]
+bindgen = "0.69"
+coin-build-tools = "0.2"
