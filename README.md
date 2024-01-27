@@ -6,7 +6,7 @@ coinipopt-sys crate is a *-sys crate. The package provides Low-level bindings to
 
 By this package, you don't need to worry about installing Ipopt in the system, and it's a package for **all platforms**.
 
-Ipopt (Coin-or linear programming) is an open-source linear programming solver. It is primarily meant to be used as a callable library, but a basic, stand-alone executable version is also available.
+Ipopt (Interior Point OPTimizer, pronounced eye-pea-Opt) is a software package for large-scale nonlinear optimization. It is designed to find (local) solutions of mathematical optimization problems of the NLP.
 
 ## Usage
 
