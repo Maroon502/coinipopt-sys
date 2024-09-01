@@ -20,5 +20,5 @@ default = ["ipopt-src/default"]
 ipopt-src = { version = "0.2", default-features = false, optional = true}
 
 [build-dependencies]
-bindgen = "0.69"
+bindgen = "0.70"
 coin-build-tools = "0.2"
